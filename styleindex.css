@@ -23,10 +23,10 @@ body{
 .up{
   width: 100%;
   float: left;
-  background-color: grey;
+  background-color: #ebe8e1;
   padding: 10px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   padding-bottom: 20px;
 }
 .titolo {
@@ -37,7 +37,7 @@ body{
 .titolo h1{
   padding: 15px;
   font-size: 50px;
-  color: white;
+  color: grey;
 }
 .menu{
   width: 100%;
@@ -52,7 +52,7 @@ body{
 }
 .m-desktop ul li{
   display: inline;
-  color: white;
+  color: grey;
   margin-right: 15px;
 }
 
@@ -109,41 +109,53 @@ body{
     margin: 0 auto;
   }
   .uno, .due {
+    color: grey;
     align-items: center;
     width: 24px;
     height: 2px;
     background-color: #191919;
     display: block;
     margin: 2.5px 0;
-    padding: 0.1;
     border-radius: 4px;
     float: left;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-}
+  }
   .uno{
-  transform: rotate(40deg);
-  margin-right: -3.5px;
-}
+    transform: rotate(40deg);
+    margin-right: -3.5px;
+    padding-left: 1px;
+  }
+  .reuno{
+    transition-delay: 0.5s;
+    transform: rotate(90deg);
+    margin-right: 0;
+    padding-right: 1px;
+  }
   .due{
-  transform: rotate(-40deg);
-  margin-left: -3.5px;
-}
+    transform: rotate(-40deg);
+    margin-left: -3.5px;
+  }
+  .redue{
+    transition-delay: 0.5s;
+    transform: rotate(-90deg);
+    margin-right: 0;
+  }
   .slideup, .slidedown {
     overflow: hidden;
     height: 0;
     transition: height 0.5s;
   }
   .slidedown{
-      height: 80px;
+      height: 110px;
   }
   #hidmenu{
     width: auto;
     height: auto;
     visibility: visible;
     text-align: center;
-    color: white;
+    color: grey;
     list-style-type: none;
     margin-right: 40px;
     margin-bottom: 10px;

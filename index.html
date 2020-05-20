@@ -14,7 +14,10 @@
     function slide() {
         var e = document.getElementById("hidden");
         e.className == "slideup" ? e.className = "slidedown" : e.className = "slideup";
-        
+
+    }
+    function freccia() {
+
     }
     </script>
   </head>
@@ -30,6 +33,7 @@
         <!--menu desktop-->
         <div class="m-desktop">
           <ul>
+            <li ><a href="#">gallery</a></li>
             <li ><a href="#">Biografia</a></li>
             <li ><a href="contatti.html">Contatti</a></li>
           </ul>
@@ -37,16 +41,17 @@
         <!--menu mobile-->
         <div class="m-mobile">
 
-          <div id="hidden" class="hidden">
+          <div id="hidden" class="slideup" >
             <ul>
+              <li id="hidmenu"><a href="#">gallery</a></li>
               <li id="hidmenu"><a href="#">Biografia</a></li>
               <li id="hidmenu"><a href="contatti.html">Contatti</a></li>
             </ul>
           </div>
 
-          <div class="letre" id="letre" onclick="slide()">
-            <span class="uno"></span>
-            <span class="due"></span>
+          <div class="letre" id="letre" onclick="slide()" >
+            <span id="uno" class="uno"></span>
+            <span id="due"class="due"></span>
           </div>
           <!--menu a comparsa-->
 
