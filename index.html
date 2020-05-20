@@ -12,8 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script type="text/javascript">
     function slide() {
-        var e = document.getElementById("elemento");
+        var e = document.getElementById("hidden");
         e.className == "slideup" ? e.className = "slidedown" : e.className = "slideup";
+        
     }
     </script>
   </head>
@@ -35,18 +36,21 @@
         </div>
         <!--menu mobile-->
         <div class="m-mobile">
-          <div class="letre" onclick="slide()">
-            <span class="tre"></span>
-            <span class="tre"></span>
-            <span class="tre"></span>
-          </div>
-          <!--menu a comparsa-->
-          <div class="hidden">
+
+          <div id="hidden" class="hidden">
             <ul>
               <li id="hidmenu"><a href="#">Biografia</a></li>
               <li id="hidmenu"><a href="contatti.html">Contatti</a></li>
             </ul>
           </div>
+
+          <div class="letre" id="letre" onclick="slide()">
+            <span class="uno"></span>
+            <span class="due"></span>
+          </div>
+          <!--menu a comparsa-->
+
+
         </div>
       </div>
     </div>
