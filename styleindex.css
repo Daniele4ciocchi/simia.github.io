@@ -6,9 +6,10 @@
   background-color: inherit;
   box-sizing: border-box;
   margin: 0px;
-  overflow: scroll;
+  overflow-x: hidden;
 }
 body{
+  overflow: scroll;
   background-color: white;
 }
 .row::after {
@@ -76,21 +77,24 @@ body{
   height: 0px;
 }
 #sottotitolo{
-  margin-left: 40px;
+  margin: 40px;
   font-size: 25px;
   color: grey;
+
 }
 .progetti {
   float: left;
   width: 100%;
 }
 .creation{
+  width: 100%;
   float: left;
 }
 #pro{
-  width: 80%;
-  height: auto;
-  text-align: center;
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: block;
 }
 /* For desktop: */
 .col-1 {width: 8.33%;}
@@ -176,5 +180,10 @@ body{
     margin-right: 40px;
     margin-bottom: 10px;
     font-size:20px;
+  }
+  #pro{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
