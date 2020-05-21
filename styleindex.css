@@ -9,8 +9,13 @@
   overflow-x: hidden;
 }
 body{
-
-  background-color: white;
+  background-image: url("img/fire1.png");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 .row::after {
   content: "";
@@ -130,8 +135,7 @@ body{
   padding: 5px;
   bottom: 0px;
   position: fixed;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+
   vertical-align: baseline;
   color: #ebe8e1;
   font-size: 13px;
