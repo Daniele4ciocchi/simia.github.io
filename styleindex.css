@@ -6,7 +6,7 @@
   background-color: inherit;
   box-sizing: border-box;
   margin: 0px;
-  overflow: hidden;
+  overflow: scroll;
 }
 body{
   background-color: white;
@@ -75,7 +75,23 @@ body{
   width: 0px;
   height: 0px;
 }
-
+#sottotitolo{
+  margin-left: 40px;
+  font-size: 25px;
+  color: grey;
+}
+.progetti {
+  float: left;
+  width: 100%;
+}
+.creation{
+  float: left;
+}
+#pro{
+  width: 80%;
+  height: auto;
+  text-align: center;
+}
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
