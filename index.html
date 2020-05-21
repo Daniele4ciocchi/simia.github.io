@@ -11,16 +11,36 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script type="text/javascript">
-    function slide() {
-      var a = document.getElementById("hidden");
-      a.className == "slideup" ? a.className = "slidedown" : a.className = "slideup";
-      var b = document.getElementById("uno");
-      b.className == "uno" ? b.className = "reuno" : b.className = "uno";
-      var c = document.getElementById("due");
-      c.className == "due" ? c.className = "redue" : c.className = "due";
+      function slide() {
+        var a = document.getElementById("hidden");
+        a.className == "slideup" ? a.className = "slidedown" : a.className = "slideup";
+        var b = document.getElementById("uno");
+        b.className == "uno" ? b.className = "reuno" : b.className = "uno";
+        var c = document.getElementById("due");
+        c.className == "due" ? c.className = "redue" : c.className = "due";
     }
+    </script>
+    <script type="text/javascript">
 
+    function over(){
+      var j = document.getElementById("hidden");
+      if (j.className == "slidedown"){
+        var d = document.getElementById("uno");
+        d.className = "reuno1";
+        var e = document.getElementById("due");
+        e.className = "redue2";
+      }
 
+    }
+    function out(){
+      var j = document.getElementById("hidden");
+      if (j.className == "slidedown"){
+        var d = document.getElementById("uno");
+        d.className = "reuno";
+        var e = document.getElementById("due");
+        e.className = "redue";
+      }
+    }
     </script>
   </head>
 
@@ -57,28 +77,6 @@
             <span id="uno" class="uno"></span>
             <span id="due"class="due"></span>
           </div>
-          <script type="text/javascript">
-
-            function over(){
-              var j = document.getElementById("hidden");
-              if (j.className == "slidedown"){
-                var d = document.getElementById("uno");
-                d.className = "reuno1";
-                var e = document.getElementById("due");
-                e.className = "redue2";
-              }
-
-            }
-            function out(){
-              var j = document.getElementById("hidden");
-              if (j.className == "slidedown"){
-                var d = document.getElementById("uno");
-                d.className = "reuno";
-                var e = document.getElementById("due");
-                e.className = "redue";
-              }
-            }
-          </script>
         </div>
       </div>
     </div>
