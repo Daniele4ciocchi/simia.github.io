@@ -9,7 +9,7 @@
   overflow-x: hidden;
 }
 body{
-  overflow: scroll;
+  
   background-color: white;
 }
 .row::after {
