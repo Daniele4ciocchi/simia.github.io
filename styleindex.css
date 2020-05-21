@@ -96,6 +96,18 @@ body{
   margin-right: 10%;
   display: block;
 }
+.bottom{
+  color: white;
+  text-align: center;
+  background-color: grey;
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -129,9 +141,7 @@ body{
     margin: 0 auto;
     overflow: hidden;
   }
-  .uno, .due, .reuno, .redue{
-    border-color: grey
-    color: grey;
+  .uno, .due, .reuno, .redue, .reuno1, .redue2{
     align-items: center;
     width: 24px;
     height: 2px;
@@ -148,17 +158,6 @@ body{
     transition-duration:  0.5s;
     transform: rotate(40deg);
     margin-right: -3.5px;
-    padding-left: 1px;
-  }
-  .reuno{
-    transition-duration:  0.5s;
-    transform: rotate(0deg);
-    margin-right: -2px;
-  }
-  .reuno1{
-    transform: rotate(-40deg);
-    margin-right: -3.5px;
-    padding-left: 1px;
   }
   .due{
     transition-duration: 0.5s;
@@ -168,11 +167,20 @@ body{
   .redue{
     transition-duration: 0.5s;
     transform: rotate(0deg);
-    margin-left: -2px;
+    margin-left: -1px;
+  }
+  .reuno{
+    transition-duration:  0.5s;
+    transform: rotate(0deg);
+    margin-right: -1px;
+  }
+  .reuno1{
+    transform: rotate(-40deg);
+    margin-right: -3.5px;
   }
   .redue2{
     transform: rotate(40deg);
-    margin-left: -2px;
+    margin-left: -3.5px;
   }
   .slideup, .slidedown {
     overflow: hidden;
