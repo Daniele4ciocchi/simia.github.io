@@ -9,7 +9,7 @@
   overflow-x: hidden;
 }
 body{
-  
+
   background-color: white;
 }
 .row::after {
@@ -152,6 +152,7 @@ body{
   .reuno{
     transition-duration:  0.5s;
     transform: rotate(0deg);
+    margin-right: -2px;
   }
   .due{
     transition-duration: 0.5s;
@@ -161,6 +162,7 @@ body{
   .redue{
     transition-duration: 0.5s;
     transform: rotate(0deg);
+    margin-left: -2px;
   }
   .slideup, .slidedown {
     overflow: hidden;
