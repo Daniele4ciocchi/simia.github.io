@@ -9,6 +9,7 @@
   overflow-x: hidden;
 }
 body{
+
   background-color: #e6d7c3;
   background-image: url("img/fire1.png");
   height: 400px;
@@ -159,8 +160,9 @@ h6#contatti{
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-@media only screen and (max-width: 750px) {
-
+@media only screen and (max-width: 750px ) and (min-height: 636px) {
   /* For mobile phones: */
-
+  body{
+    background-position: center 200px;
+  }
 }
