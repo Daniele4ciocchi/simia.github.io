@@ -18,7 +18,7 @@
         b.className == "uno" ? b.className = "reuno" : b.className = "uno";
         var c = document.getElementById("due");
         c.className == "due" ? c.className = "redue" : c.className = "due";
-    }
+      }
     </script>
     <script type="text/javascript">
 
@@ -42,12 +42,30 @@
         }
       }
     </script>
+    <script type="text/javascript">
+      // Initial state
+      var scrollPos = 0;
+      // adding scroll event
+      window.addEventListener('scroll', function(){
+      // detects new state and compares it with the new one
+      if ((document.body.getBoundingClientRect()).top > scrollPos){
+        document.getElementById('logo').className = "logo";
+        document.getElementById('letre').style.paddingBottom = "10px";
+      }
+      else{
+        document.getElementById('logo').className = "logoscroll";
+        document.getElementById('letre').style.paddingBottom = "5px";
+      }
+      // saves the new position for iteration.
+      scrollPos = (document.body.getBoundingClientRect()).top;
+      });
+    </script>
   </head>
 
-  <body>
+  <body >
     <div class="up">
       <!-- titolo -->
-      <div class="logo" >
+      <div class="logo" id="logo" >
         <a href="#"><img src="img/logo.png" alt="" ></a>
 
       </div>

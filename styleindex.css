@@ -30,17 +30,30 @@ body{
   border-bottom-left-radius: 30px; /*raggio angoli intestazione*/
   border-bottom-right-radius: 30px;
   padding-bottom: 20px;
+  position: fixed;
 }
+
 .logo {
   text-align: center;
   width: 100%;
   float: left;
 }
 .logo img{
+  transition-duration:  0.3s;
   padding: 10px;
-  font-size: 50px;
   color: grey;
   width: 200px;
+}
+.logoscroll {
+  text-align: center;
+  width: 100%;
+  float: left;
+}
+.logoscroll img{
+  transition-duration:  0.3s;
+  padding: 0px;
+  color: grey;
+  width: 120px;
 }
 .menu{
   width: 100%;
@@ -136,6 +149,7 @@ body{
   width: 80%;
   max-width: 400px;
   margin-bottom: 30px;
+  margin-top: 150px;
 }
 
 .bottom{
