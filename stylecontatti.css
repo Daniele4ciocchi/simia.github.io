@@ -124,10 +124,37 @@ body{
   font-size:15px;
 }
 
+.contenuto{
+  margin-left: 25%;
+  margin-right: 25%;
+  clear: both;
+  width: 50%;
+  float: left;
+  text-align: center;
+  color: grey;
+}
+.contenuto h1{
+  text-align: center;
+  padding: 20px;
+}
+.contenuto img{
+  width: 200px;
+  height: auto;
+}
+.contenuto img:hover{
+  opacity: 0.5;
+}
+.testo {
+  margin-top: 20px;
+  text-align: left;
+}
+.testo p{
+  line-height: 25px;
+}
 .bottom{
   background-color: grey;
   width: 100%;
-  padding: 20px;
+  padding: 5px;
   bottom: 0px;
   position: fixed;
   border-top-left-radius: 30px;
@@ -140,30 +167,6 @@ body{
 h6#contatti{
   font-size: 7px;
   margin-bottom: 5px;
-}
-.contenuto{
-  margin-top: 30px;
-  margin-left: 25%;
-  margin-right: 25%;
-  clear: both;
-  width: 50%;
-  float: left;
-  text-align: center;
-}
-.contenuto img{
-  width: 200px;
-  height: auto;
-}
-.contenuto img:hover{
-  opacity: 0.5;
-}
-.testo {
-  margin-top: 20px;
-  text-align: left;
-  color: grey;
-}
-.testo p{
-  line-height: 25px;
 }
 /* For desktop: */
 .col-1 {width: 8.33%;}

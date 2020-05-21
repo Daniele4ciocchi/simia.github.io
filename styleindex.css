@@ -10,12 +10,7 @@
 }
 body{
   background-color: #e6d7c3; /*colore di sfondo */
-  background-image: url("img/fire1.png"); /* percorso immagine di sfondo */
-  height: 400px;
-  background-position: center 150px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
+
 }
 .row::after {
   content: "";
@@ -128,7 +123,19 @@ body{
   margin-bottom: 10px;
   font-size:15px;
 }
-
+.immagine{
+  float: left;
+  width: 100%;
+  clear: both;
+  text-align: center;
+}
+.immagine img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
 
 .bottom{
   background-color: grey;
@@ -136,7 +143,8 @@ body{
   padding: 5px;
   bottom: 0px;
   position: fixed;
-
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   vertical-align: baseline;
   color: #ebe8e1;
   font-size: 13px;
@@ -160,15 +168,7 @@ h6#contatti{
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-@media only screen and (min-height: 636px) {
-  /* For mobile phones: */
-  body{
-    background-position: center 200px;
-  }
-}
+
 @media only screen and (min-height: 700px) {
   /* For mobile phones: */
-  body{
-    background-position: center 250px;
-  }
 }
