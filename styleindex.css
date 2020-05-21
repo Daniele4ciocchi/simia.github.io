@@ -30,15 +30,16 @@ body{
   border-bottom-right-radius: 30px;
   padding-bottom: 20px;
 }
-.titolo {
+.logo {
   text-align: center;
   width: 100%;
   float: left;
 }
-.titolo h1{
+.logo img{
   padding: 10px;
   font-size: 50px;
   color: grey;
+  width: 30%;
 }
 .menu{
   width: 100%;
