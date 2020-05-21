@@ -9,7 +9,8 @@
   overflow-x: hidden;
 }
 body{
-  background-image: url("img/texture.jpg");
+  background-color: #e6cfb0;
+  /*background-image: url("img/texture.jpg");*/
   background-repeat: repeat;/*colore di sfondo */
 }
 .row::after {
