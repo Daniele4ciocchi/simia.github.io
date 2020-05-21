@@ -123,12 +123,13 @@ body{
   }
   .letre{
     visibility: visible;
-    width: 65px;
+    width: 70px;
     height: 30px;
     padding: 10px;
     margin: 0 auto;
+    overflow: hidden;
   }
-  .uno, .due {
+  .uno, .due, .reuno, .redue{
     color: grey;
     align-items: center;
     width: 24px;
@@ -143,24 +144,23 @@ body{
     transition: all 0.3s ease;
   }
   .uno{
+    transition-duration:  0.5s;
     transform: rotate(40deg);
     margin-right: -3.5px;
     padding-left: 1px;
   }
   .reuno{
-    transition-delay: 0.5s;
-    transform: rotate(90deg);
-    margin-right: 0;
-    padding-right: 1px;
+    transition-duration:  0.5s;
+    transform: rotate(0deg);
   }
   .due{
+    transition-duration: 0.5s;
     transform: rotate(-40deg);
     margin-left: -3.5px;
   }
   .redue{
-    transition-delay: 0.5s;
-    transform: rotate(-90deg);
-    margin-right: 0;
+    transition-duration: 0.5s;
+    transform: rotate(0deg);
   }
   .slideup, .slidedown {
     overflow: hidden;
