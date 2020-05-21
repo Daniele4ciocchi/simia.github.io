@@ -9,7 +9,6 @@
   overflow-x: hidden;
 }
 body{
-
   background-color: #e6d7c3; /*colore di sfondo */
   background-image: url("img/fire1.png"); /* percorso immagine di sfondo */
   height: 400px;
@@ -30,9 +29,9 @@ body{
 .up{
   width: 100%;
   float: left;
-  background-color: #ebe8e1;
+  background-color: #ebe8e1; /*colore sfondo intestazione*/
   padding: 10px;
-  border-bottom-left-radius: 30px;
+  border-bottom-left-radius: 30px; /*raggio angoli intestazione*/
   border-bottom-right-radius: 30px;
   padding-bottom: 20px;
 }

@@ -158,7 +158,12 @@ h6#contatti{
   opacity: 0.5;
 }
 .testo {
+  margin-top: 20px;
   text-align: left;
+  color: grey;
+}
+.testo p{
+  line-height: 25px;
 }
 /* For desktop: */
 .col-1 {width: 8.33%;}
