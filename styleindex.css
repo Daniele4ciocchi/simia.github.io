@@ -9,12 +9,12 @@
   overflow-x: hidden;
 }
 body{
+  background-color: #e6d7c3;
   background-image: url("img/fire1.png");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: initial;
+  height: 400px;
+  background-position: center 150px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: relative;
 }
 .row::after {
@@ -128,6 +128,7 @@ body{
   margin-bottom: 10px;
   font-size:15px;
 }
+
 
 .bottom{
   background-color: grey;
