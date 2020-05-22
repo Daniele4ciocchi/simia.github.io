@@ -159,28 +159,29 @@ body{
 
 .testo {
   margin-top: 20px;
-  text-align: left;
-}
-.testo {
+  text-align: center;
   line-height: 25px;
   background-color: #ebe8e1;
   border-radius: 30px;
   padding: 25px;
 }
-
-.bottom{
-  background-color: grey;
-  width: 100%;
-  padding: 5px;
-  bottom: 0px;
-  position: fixed;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  vertical-align: baseline;
-  color: #ebe8e1;
-  font-size: 13px;
-  text-align: center;
+.loghi{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
 }
+.loghi img{
+  width: 40px;
+
+}
+#instagram{
+  margin-right: 10px;
+}
+#behance{
+  margin-left: 10px;
+}
+
 .testo textarea{
   padding: 5px;
   margin-top: 10px;
@@ -207,6 +208,19 @@ body{
 }
 .testo input:focus{
   outline: none;
+}
+.bottom{
+  background-color: grey;
+  width: 100%;
+  padding: 5px;
+  bottom: 0px;
+  position: fixed;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  vertical-align: baseline;
+  color: #ebe8e1;
+  font-size: 13px;
+  text-align: center;
 }
 h6#contatti{
   font-size: 7px;
