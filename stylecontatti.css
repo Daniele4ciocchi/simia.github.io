@@ -141,7 +141,7 @@ body{
   margin-top: 150px;
   margin-left: 25%;
   margin-right: 25%;
-  margin-bottom: 60px;
+  margin-bottom: 150px;
   clear: both;
   width: 50%;
   float: left;
@@ -195,9 +195,10 @@ body{
 .testo input{
   margin-top: 10px;
   border-color: rgba(150,150,150,0.5);
+  border-width: 1px;
   border-style: solid;
   border-radius: 7px;
-  width: 100%;
+  width: 80%;
   float:left;
   clear: both;
 }
