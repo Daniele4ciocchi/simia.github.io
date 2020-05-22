@@ -163,7 +163,7 @@ body{
   margin-top: 20px;
   text-align: left;
 }
-.testo p{
+.testo {
   line-height: 25px;
   background-color: #ebe8e1;
   border-radius: 30px;
@@ -183,9 +183,37 @@ body{
   font-size: 13px;
   text-align: center;
 }
+.testo textarea{
+  padding: 5px;
+  margin-top: 10px;
+  border-color: rgba(150,150,150,0.5);
+  border-style: solid;
+  border-radius: 7px;
+  width: 80%;
+}
+.testo textarea:focus{
+  outline: none;
+}
+.testo input{
+  margin-top: 10px;
+  border-color: rgba(150,150,150,0.5);
+  border-style: solid;
+  border-radius: 7px;
+  width: 100%;
+  float:left;
+  clear: both;
+}
+.testo input:hover{
+  background-color: rgba(150,150,150,0.5);
+}
+.testo input:focus{
+  outline: none;
+}
 h6#contatti{
   font-size: 7px;
   margin-bottom: 5px;
+  outline: none;
+  outline-style: none;
 }
 
 /* For desktop: */
