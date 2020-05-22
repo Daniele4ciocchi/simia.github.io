@@ -186,4 +186,13 @@ h6#contatti{
 
 @media only screen and (min-height: 700px) {
   /* For mobile phones: */
+  .immagine img{
+    max-width: 650px;
+  }
+}
+@media only screen and (min-height: 1300px) {
+  /* For mobile phones: */
+  .immagine img{
+    max-width: 1024px;
+  }
 }
