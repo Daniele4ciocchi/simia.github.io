@@ -153,7 +153,7 @@ body{
   padding: 20px;
 }
 .contenuto img{
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 
@@ -172,8 +172,8 @@ body{
   width: 120px;
 }
 .loghi img{
-  width: 40px;
-
+  width: 35px;
+  opacity: 0.7;
 }
 #instagram{
   margin-right: 10px;
