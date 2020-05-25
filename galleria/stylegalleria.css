@@ -31,6 +31,7 @@ body{
   border-bottom-right-radius: 30px;
   padding-bottom: 20px;
   position: fixed;
+  z-index: 2;
 }
 
 .logo {
@@ -137,25 +138,59 @@ body{
   margin-bottom: 10px;
   font-size:15px;
 }
+h1#titolo{
+  text-align: center;
+  font-size: 35px;
+  margin-top: 180px;
+  margin-bottom: 15px;
+  color: grey;
+}
 
 .galleria{
-  margin-left: 15%;
-  margin-right: 15%;
-  width: 70%;
-  margin-top: 200px;
-  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  margin-top: 20px;
 }
 .galleria img{
-  width: 30%;
-  border-style: solid;
-  border-color: grey;
-  border-radius: 15px;
+  width: 32.93%;
 
 }
 .galleria img:hover{
   opacity: 0.5;
 }
-
+.img{
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+}
+.imgselectioned{
+  visibility: visible;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.mostra{
+  width: 60%;
+  height: auto;
+  margin: auto;
+  transform: translateY(50%);
+  background-color: white
+}
+#x{
+  float: right;
+  padding: 5px;
+  width: 30px;
+}
+#selectioned{
+  padding: 5px;
+  width: 70%;
+  float: left;
+}
 
 /* For desktop: */
 .col-1 {width: 8.33%;}
@@ -171,15 +206,11 @@ body{
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-@media only screen and (min-height: 700px) {
+@media only screen and (max-width: 600px) {
   /* For mobile phones: */
-  .immagine img{
-    max-width: 650px;
-  }
-}
-@media only screen and (min-height: 1300px) {
-  /* For mobile phones: */
-  .immagine img{
-    max-width: 1024px;
+  .galleria img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
 }

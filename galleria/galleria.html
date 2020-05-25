@@ -59,6 +59,19 @@
       scrollPos = (document.body.getBoundingClientRect()).top;
       });
     </script>
+
+    <script type="text/javascript">
+      function show(nome){
+        var x = document.getElementById("selettore");
+        x.className = "imgselectioned";
+        var s = document.getElementById(nome);
+        var y = document.getElementById("selectioned");
+        y.src = s.src;
+      }
+      function togli(){
+        document.getElementById("selettore").className = "img";
+      }
+    </script>
   </head>
 
   <body >
@@ -76,7 +89,7 @@
 
           <div id="hidden" class="slideup" >
             <ul>
-              <li id="hidmenu"><a href="#">gallery</a></li>
+              <li id="hidmenu"><a href="#">home</a></li>
               <li id="hidmenu"><a href="#">about</a></li>
               <li id="hidmenu"><a href="contatti.html">contact</a></li>
             </ul>
@@ -91,9 +104,17 @@
         </div>
       </div>
     </div>
-
+    <h1 id="titolo">Gallery</h1>
     <div class="galleria">
-      <img src="img\fire2.png" alt="" onclick="">
+      <img id="1" src="img\fire1.png" alt="" onclick="show(1)">
+      <img id="2" src="img\fire2.png" alt="" onclick="show(2)">
+      <img id="3" src="img\fire3.png" alt="" onclick="show(3)">
+    </div>
+    <div class="img" id="selettore">
+      <div class="mostra">
+        <img id="x" src="img\x.png" alt="" onclick="togli()">
+        <img id="selectioned" src="#" alt="">
+      </div>
     </div>
 
 
