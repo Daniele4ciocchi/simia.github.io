@@ -153,8 +153,9 @@ h1#titolo{
   margin-top: 20px;
 }
 .galleria img{
-  width: 32.93%;
-
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 22%;
 }
 .galleria img:hover{
   opacity: 0.5;
@@ -192,6 +193,15 @@ h1#titolo{
   width: 70%;
   float: left;
   max-width: 400px;
+}
+.left{
+  margin-left: auto;
+}
+.right{
+  margin-left: auto;
+}
+.center{
+  margin-left: auto;
 }
 
 /* For desktop: */
